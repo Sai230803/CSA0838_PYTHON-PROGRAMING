@@ -5,5 +5,5 @@ def  anagram_check(keywords):
    histogram = tuple(Counter(i).items())
    anagrams[histogram].append(i)
   return list(anagrams.values())
-keywords = ("a")
+keywords = ("a")
 print(anagram_check(keywords))
