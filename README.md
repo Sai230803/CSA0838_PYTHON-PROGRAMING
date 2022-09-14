@@ -46,3 +46,4 @@ roman to integer.py ,
 function delchar.py ,
 no.of std,staff,non staff.py ,
 how any num are smaller than the current nuber.py ,
+minimum jumps day 4.py
