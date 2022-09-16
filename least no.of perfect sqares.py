@@ -1,13 +1,12 @@
-def sq(n):
-    if(n<=3):
-        return n
-    res=n
-    for i in range(1,n+1):
-        temp=i*i
-        if temp>n:
-            break
-        else:
-            res=min(res,1+sq(n-temp))
-    return res
-num=int(input("enter:"))
-print(sq(num))
+n=int(input("Enter the number:"))
+c=0
+e=0
+while(n>0):
+    d=n%10
+    c=c+d
+    n=n//10
+for i in range(1,c+1):
+    if(i*i<=c):
+        e+=1
+print("Number of least perfect square numbers:",e)
+
